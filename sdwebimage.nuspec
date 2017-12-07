@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Ricardo.SDWebImage.iOS</id>
+        <version>4.2.2</version>
+        <description>Xamarin Binding Library - SDWebImage iOS Image Library</description>
+        <authors>Branislav Havrila</authors>
+        <owners>ricardo.ch AG</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>SDWebImage iOS</title>
+        <releaseNotes>SDWebImage v 4.2.2</releaseNotes>
+        <summary>Xamarin Binding Library - SDWebImage iOS SDK</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/ricardo-ch/xamarin-sdwebimage-ios/</projectUrl>
+        <copyright>Copyright (c) 2017 ricardo.ch AG</copyright>
+        <tags>Xamarin.iOS, SDWebImage</tags>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Ricardo.SDWebImage.iOS/bin/Release/Ricardo.SDWebImage.iOS.dll" target="lib/Xamarin.iOS10/Ricardo.SDWebImage.iOS.dll" />
+    </files>
+</package>
