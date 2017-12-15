@@ -39,10 +39,6 @@ namespace Ricardo.SDWebImage.iOS
         // extern NSString *const _Nonnull SDWebImageInternalSetImageInGlobalQueueKey;
         [Field("SDWebImageInternalSetImageInGlobalQueueKey", "__Internal")]
         NSString SDWebImageInternalSetImageInGlobalQueueKey { get; }
-
-        // extern double SDWebImageVersionNumber;
-        [Field("SDWebImageVersionNumber", "__Internal")]
-        double SDWebImageVersionNumber { get; }
     }
 
     // @interface SDImageCacheConfig : NSObject
@@ -84,6 +80,7 @@ namespace Ricardo.SDWebImage.iOS
     delegate void SDWebImageCalculateSizeBlock(nuint arg0, nuint arg1);
 
     // @interface SDImageCache : NSObject
+    [DisableDefaultCtor]
     [BaseType(typeof(NSObject))]
     interface SDImageCache
     {
@@ -356,6 +353,7 @@ namespace Ricardo.SDWebImage.iOS
     }
 
     // @interface SDWebImageDownloader : NSObject
+    [DisableDefaultCtor]
     [BaseType(typeof(NSObject))]
     interface SDWebImageDownloader
     {
@@ -555,6 +553,7 @@ namespace Ricardo.SDWebImage.iOS
     }
 
     // @interface SDWebImageManager : NSObject
+    [DisableDefaultCtor]
     [BaseType(typeof(NSObject))]
     interface SDWebImageManager
     {
@@ -640,6 +639,7 @@ namespace Ricardo.SDWebImage.iOS
     delegate void SDWebImagePrefetcherCompletionBlock(nuint arg0, nuint arg1);
 
     // @interface SDWebImagePrefetcher : NSObject
+    [DisableDefaultCtor]
     [BaseType(typeof(NSObject))]
     interface SDWebImagePrefetcher
     {
