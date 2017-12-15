@@ -3,14 +3,14 @@
     <metadata>
         <!-- Required elements-->
         <id>Ricardo.SDWebImage.iOS</id>
-        <version>4.2.2</version>
+        <version>4.2.2.1</version>
         <description>Xamarin Binding Library - SDWebImage iOS Image Library</description>
         <authors>Branislav Havrila</authors>
         <owners>ricardo.ch AG</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>SDWebImage iOS</title>
-        <releaseNotes>SDWebImage v 4.2.2</releaseNotes>
-        <summary>Xamarin Binding Library - SDWebImage iOS SDK</summary>
+        <releaseNotes>SDWebImage v 4.2.2.1</releaseNotes>
+        <summary>Xamarin Binding Library - SDWebImage iOS Image Library</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/ricardo-ch/xamarin-sdwebimage-ios/</projectUrl>
         <copyright>Copyright (c) 2017 ricardo.ch AG</copyright>
